@@ -8,7 +8,7 @@
   },
   "plugins": [
     {
-      "name": "skills",
+      "name": "robbydf",
       "source": { "source": "github", "repo": "robbydf/skills" },
       "description": "Grilling interviews, design alternatives, throwaway prototypes, and review loops. No per-project setup required.",
       "category": "productivity"

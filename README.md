@@ -7,7 +7,7 @@ tests, versions and releases); this repo only lists them.
 
 ```
 /plugin marketplace add robbydf/claude-plugins
-/plugin install skills@robbydf-plugins
+/plugin install robbydf@robbydf-plugins
 /plugin install lightcraft@robbydf-plugins
 /plugin install photocraft@robbydf-plugins
 ```
@@ -18,7 +18,7 @@ Install only the ones you want. To pick up new versions later: `/plugin marketpl
 
 | Plugin | Repo | What it does |
 | --- | --- | --- |
-| `skills` | [robbydf/skills](https://github.com/robbydf/skills) | Grilling interviews, design alternatives, throwaway prototypes, and review loops. |
+| `robbydf` | [robbydf/skills](https://github.com/robbydf/skills) | Grilling interviews, design alternatives, throwaway prototypes, and review loops. |
 | `lightcraft` | [robbydf/lightcraft-skills](https://github.com/robbydf/lightcraft-skills) | Cull, edit and export photos in LightCraft. |
 | `photocraft` | [robbydf/photocraft-skills](https://github.com/robbydf/photocraft-skills) | Drive PhotoCraft and remove bystanders from photos. |
 
