@@ -1,0 +1,29 @@
+{
+  "name": "robbydf-plugins",
+  "owner": {
+    "name": "robbydf"
+  },
+  "metadata": {
+    "description": "robbydf's Claude Code plugins: general-purpose skills, plus LightCraft and PhotoCraft photo workflows."
+  },
+  "plugins": [
+    {
+      "name": "skills",
+      "source": { "source": "github", "repo": "robbydf/skills" },
+      "description": "Grilling interviews, design alternatives, throwaway prototypes, and review loops. No per-project setup required.",
+      "category": "productivity"
+    },
+    {
+      "name": "lightcraft",
+      "source": { "source": "github", "repo": "robbydf/lightcraft-skills" },
+      "description": "Cull, edit and export photos in LightCraft from Claude Code (Windows tested; macOS and Linux best effort).",
+      "category": "media"
+    },
+    {
+      "name": "photocraft",
+      "source": { "source": "github", "repo": "robbydf/photocraft-skills" },
+      "description": "Drive PhotoCraft from Claude Code through its MCP bridge (Windows tested; macOS and Linux best effort).",
+      "category": "media"
+    }
+  ]
+}
