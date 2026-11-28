@@ -25,10 +25,3 @@ Install only the ones you want. To pick up new versions later: `/plugin marketpl
 ## Adding a plugin
 
 Add an entry to `.claude-plugin/marketplace.json` with `"source": { "source": "github", "repo": "robbydf/<repo>" }`.
-
-## Migrating from the per-repo marketplaces
-
-The old marketplaces (`robbydf/skills`, `robbydf/lightcraft-skills`, `robbydf/photocraft-skills`) still
-work, so nothing breaks. To move over, remove them (`/plugin marketplace remove <name>`), add this one,
-and reinstall the plugins from it. Plugin names are unchanged, so skill names (`lightcraft:cull`, ...)
-stay the same.
